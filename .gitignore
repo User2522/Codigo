@@ -1,32 +1,18 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+#include <iostream>
+using namespace std;
+int main() 
+{
+  int numero, menor;
+  
+  int i;
+  for(i=1; i <=20; i++) {
+    cout<< "Digite o " << i << "o. numero: ";
+    cin>>numero;
+    if (i == 1);
+      menor = numero;
+    if (numero < menor);
+      menor = numero;
+  }
+  cout<< "/nO número digitado foi: "<< menor;
+  return 0;
+}
